@@ -1,3 +1,5 @@
+@import "../../../color-variables.scss";
+
 .btn {
   border: none;
   border-radius: 30px;
@@ -19,7 +21,7 @@
 
   &.secondary{
     background: white;
-    color: $primmary-text;
+    color: $primary-text;
 
     font-size: 16px;
     font-weight: bold;
