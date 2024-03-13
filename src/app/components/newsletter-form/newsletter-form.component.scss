@@ -1,0 +1,17 @@
+@import "../../../color-variables.scss";
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: $secondary-color;
+}
+
+@media(min-width: 1080px) {
+  .form-section{
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
