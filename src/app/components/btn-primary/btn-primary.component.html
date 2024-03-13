@@ -1,1 +1,8 @@
-<p>btn-primary works!</p>
+<button (click)="submit()" [class]="'btn-' + variant" [disabled]="disabled">
+  <span *ngif="!loading">
+    {{ btnText }}
+  </span>
+  <span *ngif="loading">
+    carregando...
+  </span>
+</button>
