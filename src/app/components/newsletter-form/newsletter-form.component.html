@@ -6,11 +6,11 @@
       dolore non quod temporibus et ex, illo, nesciunt voluptatibus laboriosam quis neque iusto corporis.</p>
   </div>
 
-  <form>
+  <form [formGroup]="newsletterForm">
     <label for="name">Name</label>
-    <input id="name">
+    <input id="name" formControlName="name">
     <label for="email">Email</label>
-    <input id="email">
+    <input id="email" formControlName="email">
     <app-btn-primary btn-text="Inscreva-se" variant="secondary"></app-btn-primary>
   </form>
 
